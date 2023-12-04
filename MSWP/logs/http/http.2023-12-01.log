@@ -1,0 +1,597 @@
+2023-12-01 15:17:30.101 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2023-12-01 15:17:30.110 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/company/delete HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 4c664267-26f8-410e-b2d9-3681be5ab26b
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 234
+
+{
+  "compId": "121212",
+  "compPw": "password123",
+  "compName": "Example Corporation",
+  "compCeo": "John CEO",
+  "compManager": "Jane",
+  "compEmail": "info@example.com",
+  "compAddress": "123 Business Street, Cityville"
+}
+]
+2023-12-01 15:17:30.375 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 15:17:30.375 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:17:54.255 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2023-12-01 18:17:54.255 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/employee/read HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: b3257ac0-d5c1-41f9-840a-688ee5aba051
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 28
+
+{
+    "empId": "E789012"
+}]
+2023-12-01 18:17:54.506 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [271]
+2023-12-01 18:17:54.506 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:17:57.853 [http-nio-8080-exec-4] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [271]
+2023-12-01 18:17:57.853 [http-nio-8080-exec-4] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/employee/delete HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 32198362-a3e4-4817-9b2d-13522351ab1c
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 28
+
+{
+    "empId": "E789012"
+}]
+2023-12-01 18:17:57.916 [http-nio-8080-exec-4] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 18:17:57.916 [http-nio-8080-exec-4] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:18:21.229 [http-nio-8080-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 18:18:21.229 [http-nio-8080-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/employee/read HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 0ac6e5ad-8726-4e0d-bba3-e1f0ab8aa03e
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 28
+
+{
+    "empId": "E789012"
+}]
+2023-12-01 18:18:29.238 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [271]
+2023-12-01 18:18:29.238 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/employee/create HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 8c489dea-2f2d-4b81-91e0-9c4f1a49efea
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 560
+
+{
+  "empId": "E12123",
+  "empPw": "securePassword456",
+  "empName": "Jane Smith",
+  "empSalary": 60000,
+  "empPhone": "555-5678",
+  "empEmail": "jane.smith@example.com",
+  "empResident": "987-65-4321",
+  "empStart": "2022-05-15",
+  "empEnd": "2023-08-31",
+  "empEndReason": "Resigned",
+  "empRank": "Senior Developer",
+  "empPhoto": "path/to/jane_photo.jpg",
+  "empResume": "path/to/jane_resume.pdf",
+  "empAddress": "456 Oak St, City, Country",
+  "compId": "C4567890",
+  "bankNum": "9876543210987654",
+  "depName": "Software Development"
+}
+]
+2023-12-01 18:18:29.279 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [274]
+2023-12-01 18:18:29.279 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:18:36.764 [http-nio-8080-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [274]
+2023-12-01 18:18:36.764 [http-nio-8080-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/employee/read HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: f9bd4dd0-b0e9-445a-8690-a08f0e1356d9
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 27
+
+{
+    "empId": "E12123"
+}]
+2023-12-01 18:18:36.772 [http-nio-8080-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [271]
+2023-12-01 18:18:36.773 [http-nio-8080-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:18:39.964 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [271]
+2023-12-01 18:18:39.964 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/employee/delete HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 908a4a79-f86d-41d9-b041-a31462285b81
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 27
+
+{
+    "empId": "E12123"
+}]
+2023-12-01 18:18:39.980 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 18:18:39.980 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:19:04.602 [http-nio-8080-exec-3] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 18:19:04.602 [http-nio-8080-exec-3] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/employee/update HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: c8a0cde9-65ad-4a16-9114-ffa5793da42e
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 27
+
+{
+    "empId": "E12123"
+}]
+2023-12-01 18:19:04.607 [http-nio-8080-exec-3] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 18:19:04.608 [http-nio-8080-exec-3] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:19:12.807 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 18:19:12.807 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/employee/update HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: c3f280c9-89bf-485b-9e3c-b9e981d9274e
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 25
+
+{
+    "empId": "6633"
+}]
+2023-12-01 18:19:12.819 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 18:19:12.819 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:21:03.529 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 18:21:03.529 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/company/create HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 993dfa7e-cbbb-40a8-bf40-bc946a862e97
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 206
+
+{
+  "compId": "030803",
+  "compPw": "zihyun12",
+  "compName": "testcompany",
+  "compCeo": "kim jihyun",
+  "compManager": "jinoodle",
+  "compEmail": "info@example.com",
+  "compAddress": "My home"
+}
+]
+2023-12-01 18:21:03.548 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 18:21:03.548 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:21:10.511 [http-nio-8080-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 18:21:10.512 [http-nio-8080-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/company/read HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 7bb81c2e-756d-4b94-83fa-5b65f86e1f47
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 28
+
+{
+    "compId": "030803"
+}]
+2023-12-01 18:21:10.517 [http-nio-8080-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [270]
+2023-12-01 18:21:10.517 [http-nio-8080-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:22:48.718 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [270]
+2023-12-01 18:22:48.728 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/company/delete HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 4d65be66-50d2-4456-bcac-34a5b5681adf
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 27
+
+{
+    "compId":"121212"
+}]
+2023-12-01 18:22:48.742 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [272]
+2023-12-01 18:22:48.742 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:25:43.825 [http-nio-8080-exec-3] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [272]
+2023-12-01 18:25:43.825 [http-nio-8080-exec-3] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/company/update HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: b059186b-4443-481e-90ba-76ed6d58d662
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 163
+
+{
+    "compId":"030803",
+    "compPw":"zz",
+    "compName":"zz",
+    "compCeo":"zz",
+    "compNanager":"zz",
+    "compEmail":"zz",
+    "compAddress":"zz"
+}]
+2023-12-01 18:25:43.854 [http-nio-8080-exec-3] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 18:25:43.854 [http-nio-8080-exec-3] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:33:25.847 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 18:33:25.849 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/bank/create HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 3b352e96-e6cb-4313-b345-a24781cb9732
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 222
+
+{
+  "empId": "008833",
+  "bankName": "Example Bank",
+  "bankOwner": "John Doe",
+  "payIncentive": 500,
+  "payDay": "2023-11-30",
+  "payNote": "Additional bonus for outstanding performance",
+  "empSalary": 50000
+}
+]
+2023-12-01 18:34:15.142 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2023-12-01 18:34:15.143 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/bank/create HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 99d41970-b30b-48b6-b963-c6ca552aa37f
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 222
+
+{
+  "empId": "008833",
+  "bankName": "Example Bank",
+  "bankOwner": "John Doe",
+  "payIncentive": 500,
+  "payDay": "2023-11-30",
+  "payNote": "Additional bonus for outstanding performance",
+  "empSalary": 50000
+}
+]
+2023-12-01 18:35:18.596 [http-nio-8080-exec-3] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [270]
+2023-12-01 18:35:18.596 [http-nio-8080-exec-3] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/bank/create HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: ab1c23a7-3e99-41dc-8d53-f0561c689e4a
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 233
+
+{
+  "empId": "1234567890123456",
+  "bankNum": "1234567890123456",
+  "bankName": "Sample Bank",
+  "bankOwner": "John Doe",
+  "payIncentive": 1000,
+  "payDay": "2023-12-01",
+  "payNote": "Sample note",
+  "empSalary": 50000
+}
+]
+2023-12-01 18:35:27.961 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [270]
+2023-12-01 18:35:27.961 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/bank/create HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 452b1dfc-8ae0-4872-a528-5489a6b5216d
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 221
+
+{
+  "empId": "1212",
+  "bankNum": "1234567890123456",
+  "bankName": "Sample Bank",
+  "bankOwner": "John Doe",
+  "payIncentive": 1000,
+  "payDay": "2023-12-01",
+  "payNote": "Sample note",
+  "empSalary": 50000
+}
+]
+2023-12-01 18:40:09.629 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2023-12-01 18:40:09.630 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/bank/create HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: fb90ce39-f2a3-4916-8b22-967b5a568924
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 221
+
+{
+  "empId": "1212",
+  "bankNum": "1234567890123456",
+  "bankName": "Sample Bank",
+  "bankOwner": "John Doe",
+  "empSalary": 50000,
+  "payDay": "2023-12-01",
+  "payIncentive": 1000,
+  "payNote": "Sample note"
+}
+]
+2023-12-01 18:40:10.155 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [270]
+2023-12-01 18:40:10.155 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:40:32.330 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [270]
+2023-12-01 18:40:32.330 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/bank/read HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: edb3f456-750e-45c5-bce1-6199137b7646
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 25
+
+{
+    "empId": "1212"
+}]
+2023-12-01 18:40:32.369 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [267]
+2023-12-01 18:40:32.369 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:43:52.979 [http-nio-8080-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [267]
+2023-12-01 18:43:52.979 [http-nio-8080-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/bank/update HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: f3a224c1-177d-491d-a54f-a69dd56600c2
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 122
+
+{
+    "empId": "1212",
+    "bankNum":"111",
+    "bankOwner":"111",
+    "empSalary":"111",
+    "payIncentive":"111"
+}]
+2023-12-01 18:43:53.005 [http-nio-8080-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [270]
+2023-12-01 18:43:53.005 [http-nio-8080-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:44:16.200 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [270]
+2023-12-01 18:44:16.200 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/bank/delete HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 00f7e515-e363-4a29-9967-36287a70fdf9
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 24
+
+{
+    "empId":"1212"
+}]
+2023-12-01 18:44:16.250 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [269]
+2023-12-01 18:44:16.252 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:45:09.584 [http-nio-8080-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [269]
+2023-12-01 18:45:09.584 [http-nio-8080-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/commute/delete HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 9c10a56f-8885-4172-b98b-dfc19459a6c1
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 27
+
+{
+    "empId": "E12345"
+}]
+2023-12-01 18:45:09.654 [http-nio-8080-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [272]
+2023-12-01 18:45:09.655 [http-nio-8080-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:47:37.361 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [272]
+2023-12-01 18:47:37.362 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [GET /api/department/delete HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 84d883ab-7f18-4b38-a1ae-aeebcc906a06
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 27
+
+{
+    "depCode": "D123"
+}]
+2023-12-01 18:47:37.461 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [274]
+2023-12-01 18:47:37.462 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:47:42.376 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [274]
+2023-12-01 18:47:42.377 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/department/create HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: c5544764-31ea-420b-b35a-f161666f88a5
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 121
+
+{
+  "depCode": "121212",
+  "compId": "C12345",
+  "depName": "Engineering",
+  "depDetail": "Software Development"
+}
+]
+2023-12-01 18:47:42.414 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [276]
+2023-12-01 18:47:42.414 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:47:46.489 [http-nio-8080-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [276]
+2023-12-01 18:47:46.489 [http-nio-8080-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/department/read HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: a3ae3cec-1b13-4360-b271-2fa673abca57
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 29
+
+{
+    "depCode": "121212"
+}]
+2023-12-01 18:47:46.497 [http-nio-8080-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 18:47:46.498 [http-nio-8080-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:47:54.475 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 18:47:54.475 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/department/delete HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 504d69c8-8961-4a4a-aa0f-ab244e01bab7
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 29
+
+{
+    "depCode": "121212"
+}]
+2023-12-01 18:47:54.484 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [275]
+2023-12-01 18:47:54.484 [http-nio-8080-exec-8] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 18:49:13.623 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2023-12-01 18:49:13.624 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/department/delete HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 3a5a72c9-6936-42e0-99bb-615e697b263a
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 29
+
+{
+    "depCode": "121212"
+}]
+2023-12-01 18:49:13.817 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [275]
+2023-12-01 18:49:13.817 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 19:00:16.435 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2023-12-01 19:00:16.436 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/vacation/create HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 61d01d63-feb4-416b-bb03-e153959b5ec9
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 96
+
+{
+  "empId": "E12345",
+  "vacName": "Annual Leave",
+  "vacTotal": 20,
+  "vacRemind": 15
+}
+]
+2023-12-01 19:00:16.785 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 19:00:16.785 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 19:00:20.536 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 19:00:20.536 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/vacation/create HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 67174b8a-87cd-4a63-90b2-69af8f67a7f3
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 99
+
+{
+  "empId": "121212111",
+  "vacName": "Annual Leave",
+  "vacTotal": 20,
+  "vacRemind": 15
+}
+]
+2023-12-01 19:00:20.622 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 19:00:20.622 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 19:00:35.483 [http-nio-8080-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 19:00:35.484 [http-nio-8080-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/vacation/read HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: ece62ceb-5c2a-4fa6-932f-16c10735b774
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 30
+
+{
+    "empId": "121212111"
+}]
+2023-12-01 19:00:35.509 [http-nio-8080-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [271]
+2023-12-01 19:00:35.510 [http-nio-8080-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 19:00:56.885 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [271]
+2023-12-01 19:00:56.887 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/vacation/update HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 594c2354-5c1f-40af-9f47-946548675442
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 70
+
+{
+  "empId": "121212111",
+  "vacName": "zz",
+  "vacRemind": 11
+}
+]
+2023-12-01 19:00:56.921 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 19:00:56.921 [http-nio-8080-exec-7] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2023-12-01 19:01:29.337 [http-nio-8080-exec-10] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 19:01:29.337 [http-nio-8080-exec-10] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [POST /api/vacation/delete HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Postman-Token: 364a4d8f-d1d5-44c3-9ef6-91e4e4de0200
+Host: 127.0.0.1:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 30
+
+{
+  "empId": "121212111"
+}
+]
+2023-12-01 19:01:29.372 [http-nio-8080-exec-10] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [273]
+2023-12-01 19:01:29.373 [http-nio-8080-exec-10] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []

@@ -1,0 +1,12 @@
+2023-11-28 10:21:09.408	200	POST /api/employee/create HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	20
+2023-11-28 10:21:40.831	200	POST /api/employee/read HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	443
+2023-11-28 10:22:07.748	200	POST /api/employee/update HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	49
+2023-11-28 10:22:52.560	400	POST /api/employee/update HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	7344
+2023-11-28 10:23:02.255	400	POST /api/employee/update HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	7344
+2023-11-28 10:23:11.280	400	POST /api/employee/update HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	7344
+2023-11-28 10:26:29.468	400	POST /api/employee/update HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	7344
+2023-11-28 10:26:45.524	200	POST /api/employee/update HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	49
+2023-11-28 10:33:36.882	200	POST /api/company/create HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	20
+2023-11-28 10:33:45.360	200	POST /api/company/create HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	20
+2023-11-28 10:33:52.296	200	POST /api/company/read HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	-
+2023-11-28 10:33:56.863	200	POST /api/company/read HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	206

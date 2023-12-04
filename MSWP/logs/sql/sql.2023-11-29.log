@@ -1,0 +1,207 @@
+2023-11-29 09:47:29.526 [restartedMain] DEBUG org.hibernate.SQL - 
+    [34malter[0m [34mtable[0m bank 
+       modify [34mcolumn[0m pay_note  TEXT
+2023-11-29 09:47:29.542 [restartedMain] DEBUG org.hibernate.SQL - 
+    [34malter[0m [34mtable[0m commute 
+       modify [34mcolumn[0m comm_end  datetime(6) [34mnot[0m [34mnull[0m
+2023-11-29 09:47:29.720 [restartedMain] DEBUG org.hibernate.SQL - 
+    [34malter[0m [34mtable[0m commute 
+       modify [34mcolumn[0m comm_start  datetime(6) [34mnot[0m [34mnull[0m
+2023-11-29 09:47:43.305 [restartedMain] DEBUG org.hibernate.SQL - 
+    [34malter[0m [34mtable[0m bank 
+       modify [34mcolumn[0m pay_note  TEXT
+2023-11-29 09:47:43.322 [restartedMain] DEBUG org.hibernate.SQL - 
+    [34malter[0m [34mtable[0m commute 
+       modify [34mcolumn[0m comm_end  datetime(6) [34mnot[0m [34mnull[0m
+2023-11-29 09:47:43.322 [restartedMain] DEBUG org.hibernate.SQL - 
+    [34malter[0m [34mtable[0m commute 
+       modify [34mcolumn[0m comm_start  datetime(6) [34mnot[0m [34mnull[0m
+2023-11-29 09:48:04.231 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    [34mselect[0m
+        e1_0.emp_id,
+        e1_0.bank_num,
+        e1_0.comp_id,
+        e1_0.dep_name,
+        e1_0.emp_address,
+        e1_0.emp_email,
+        e1_0.emp_end,
+        e1_0.emp_end_reason,
+        e1_0.emp_name,
+        e1_0.emp_phone,
+        e1_0.emp_photo,
+        e1_0.emp_pw,
+        e1_0.emp_rank,
+        e1_0.emp_resident,
+        e1_0.emp_resume,
+        e1_0.emp_salary,
+        e1_0.emp_start 
+    [34mfrom[0m
+        employee e1_0 
+    [34mwhere[0m
+        e1_0.emp_id=?
+2023-11-29 09:48:04.239 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [1] as [VARCHAR] - [E789012]
+2023-11-29 09:48:04.264 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    [34mselect[0m
+        e1_0.emp_id,
+        e1_0.bank_num,
+        e1_0.comp_id,
+        e1_0.dep_name,
+        e1_0.emp_address,
+        e1_0.emp_email,
+        e1_0.emp_end,
+        e1_0.emp_end_reason,
+        e1_0.emp_name,
+        e1_0.emp_phone,
+        e1_0.emp_photo,
+        e1_0.emp_pw,
+        e1_0.emp_rank,
+        e1_0.emp_resident,
+        e1_0.emp_resume,
+        e1_0.emp_salary,
+        e1_0.emp_start 
+    [34mfrom[0m
+        employee e1_0 
+    [34mwhere[0m
+        e1_0.emp_id=?
+2023-11-29 09:48:04.264 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [1] as [VARCHAR] - [E789012]
+2023-11-29 09:48:04.321 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    [34minsert[0m 
+    [34minto[0m
+        employee
+        (bank_num,comp_id,dep_name,emp_address,emp_email,emp_end,emp_end_reason,emp_name,emp_phone,emp_photo,emp_pw,emp_rank,emp_resident,emp_resume,emp_salary,emp_start,emp_id) 
+    [34mvalues[0m
+        (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-11-29 09:48:04.324 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [1] as [VARCHAR] - [9876543210987654]
+2023-11-29 09:48:04.324 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [2] as [VARCHAR] - [C4567890]
+2023-11-29 09:48:04.324 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [3] as [VARCHAR] - [Software Development]
+2023-11-29 09:48:04.324 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [4] as [VARCHAR] - [456 Oak St, City, Country]
+2023-11-29 09:48:04.324 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [5] as [VARCHAR] - [jane.smith@example.com]
+2023-11-29 09:48:04.324 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [6] as [DATE] - [2023-08-31]
+2023-11-29 09:48:04.324 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [7] as [VARCHAR] - [Resigned]
+2023-11-29 09:48:04.324 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [8] as [VARCHAR] - [Jane Smith]
+2023-11-29 09:48:04.324 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [9] as [VARCHAR] - [555-5678]
+2023-11-29 09:48:04.329 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [10] as [VARCHAR] - [path/to/jane_photo.jpg]
+2023-11-29 09:48:04.329 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [11] as [VARCHAR] - [securePassword456]
+2023-11-29 09:48:04.329 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [12] as [VARCHAR] - [Senior Developer]
+2023-11-29 09:48:04.329 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [13] as [VARCHAR] - [987-65-4321]
+2023-11-29 09:48:04.329 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [14] as [VARCHAR] - [path/to/jane_resume.pdf]
+2023-11-29 09:48:04.329 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [15] as [INTEGER] - [60000]
+2023-11-29 09:48:04.329 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [16] as [DATE] - [2022-05-15]
+2023-11-29 09:48:04.329 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind - binding parameter [17] as [VARCHAR] - [E789012]
+2023-11-29 09:48:23.697 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    [34mselect[0m
+        e1_0.emp_id,
+        e1_0.bank_num,
+        e1_0.comp_id,
+        e1_0.dep_name,
+        e1_0.emp_address,
+        e1_0.emp_email,
+        e1_0.emp_end,
+        e1_0.emp_end_reason,
+        e1_0.emp_name,
+        e1_0.emp_phone,
+        e1_0.emp_photo,
+        e1_0.emp_pw,
+        e1_0.emp_rank,
+        e1_0.emp_resident,
+        e1_0.emp_resume,
+        e1_0.emp_salary,
+        e1_0.emp_start 
+    [34mfrom[0m
+        employee e1_0 
+    [34mwhere[0m
+        e1_0.emp_id=?
+2023-11-29 09:48:23.697 [http-nio-8080-exec-2] TRACE org.hibernate.orm.jdbc.bind - binding parameter [1] as [VARCHAR] - [E789012]
+2023-11-29 09:50:02.707 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    [34mselect[0m
+        e1_0.emp_id,
+        e1_0.bank_num,
+        e1_0.comp_id,
+        e1_0.dep_name,
+        e1_0.emp_address,
+        e1_0.emp_email,
+        e1_0.emp_end,
+        e1_0.emp_end_reason,
+        e1_0.emp_name,
+        e1_0.emp_phone,
+        e1_0.emp_photo,
+        e1_0.emp_pw,
+        e1_0.emp_rank,
+        e1_0.emp_resident,
+        e1_0.emp_resume,
+        e1_0.emp_salary,
+        e1_0.emp_start 
+    [34mfrom[0m
+        employee e1_0 
+    [34mwhere[0m
+        e1_0.emp_id=?
+2023-11-29 09:50:02.707 [http-nio-8080-exec-5] TRACE org.hibernate.orm.jdbc.bind - binding parameter [1] as [VARCHAR] - [E789012]
+2023-11-29 09:50:02.707 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    [34mselect[0m
+        e1_0.emp_id,
+        e1_0.bank_num,
+        e1_0.comp_id,
+        e1_0.dep_name,
+        e1_0.emp_address,
+        e1_0.emp_email,
+        e1_0.emp_end,
+        e1_0.emp_end_reason,
+        e1_0.emp_name,
+        e1_0.emp_phone,
+        e1_0.emp_photo,
+        e1_0.emp_pw,
+        e1_0.emp_rank,
+        e1_0.emp_resident,
+        e1_0.emp_resume,
+        e1_0.emp_salary,
+        e1_0.emp_start 
+    [34mfrom[0m
+        employee e1_0 
+    [34mwhere[0m
+        e1_0.emp_id=?
+2023-11-29 09:50:02.715 [http-nio-8080-exec-5] TRACE org.hibernate.orm.jdbc.bind - binding parameter [1] as [VARCHAR] - [E789012]
+2023-11-29 09:50:02.732 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    [34mupdate[0m
+        employee 
+    [34mset[0m
+        bank_num=?,
+        emp_address=?,
+        emp_name=?,
+        emp_phone=?,
+        emp_pw=?,
+        emp_rank=?,
+        emp_salary=? 
+    [34mwhere[0m
+        emp_id=?
+2023-11-29 09:50:02.732 [http-nio-8080-exec-5] TRACE org.hibernate.orm.jdbc.bind - binding parameter [1] as [VARCHAR] - [120-123-4553789]
+2023-11-29 09:50:02.732 [http-nio-8080-exec-5] TRACE org.hibernate.orm.jdbc.bind - binding parameter [2] as [VARCHAR] - [서울시 강서구]
+2023-11-29 09:50:02.732 [http-nio-8080-exec-5] TRACE org.hibernate.orm.jdbc.bind - binding parameter [3] as [VARCHAR] - [철구]
+2023-11-29 09:50:02.732 [http-nio-8080-exec-5] TRACE org.hibernate.orm.jdbc.bind - binding parameter [4] as [VARCHAR] - [010-1124-5678]
+2023-11-29 09:50:02.732 [http-nio-8080-exec-5] TRACE org.hibernate.orm.jdbc.bind - binding parameter [5] as [VARCHAR] - [passwo3123]
+2023-11-29 09:50:02.732 [http-nio-8080-exec-5] TRACE org.hibernate.orm.jdbc.bind - binding parameter [6] as [VARCHAR] - [팀장]
+2023-11-29 09:50:02.732 [http-nio-8080-exec-5] TRACE org.hibernate.orm.jdbc.bind - binding parameter [7] as [INTEGER] - [70012300]
+2023-11-29 09:50:02.732 [http-nio-8080-exec-5] TRACE org.hibernate.orm.jdbc.bind - binding parameter [8] as [VARCHAR] - [E789012]
+2023-11-29 09:50:16.458 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    [34mselect[0m
+        e1_0.emp_id,
+        e1_0.bank_num,
+        e1_0.comp_id,
+        e1_0.dep_name,
+        e1_0.emp_address,
+        e1_0.emp_email,
+        e1_0.emp_end,
+        e1_0.emp_end_reason,
+        e1_0.emp_name,
+        e1_0.emp_phone,
+        e1_0.emp_photo,
+        e1_0.emp_pw,
+        e1_0.emp_rank,
+        e1_0.emp_resident,
+        e1_0.emp_resume,
+        e1_0.emp_salary,
+        e1_0.emp_start 
+    [34mfrom[0m
+        employee e1_0 
+    [34mwhere[0m
+        e1_0.emp_id=?
+2023-11-29 09:50:16.458 [http-nio-8080-exec-3] TRACE org.hibernate.orm.jdbc.bind - binding parameter [1] as [VARCHAR] - [E789012]

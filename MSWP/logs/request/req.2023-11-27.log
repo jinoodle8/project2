@@ -1,0 +1,14 @@
+2023-11-27 20:40:08.657	200	POST /api/employee/create HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	20
+2023-11-27 20:40:17.793	200	POST /api/employee/read HTTP/1.1	PostmanRuntime/7.35.0	-	192.168.0.2	443
+2023-11-27 20:47:45.041	200	POST /api/employee/delete HTTP/1.1	PostmanRuntime/7.35.0	-	192.168.0.2	49
+2023-11-27 20:48:21.221	405	GET /api/employee/delete HTTP/1.1	PostmanRuntime/7.35.0	-	192.168.0.2	5037
+2023-11-27 20:48:47.512	400	POST /api/employee/delete HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	5686
+2023-11-27 20:49:10.681	400	POST /api/employee/delete HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	7856
+2023-11-27 20:49:24.063	404	POST /api/employee/delete HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	27
+2023-11-27 20:49:32.913	200	POST /api/employee/delete HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	52
+2023-11-27 20:50:36.521	200	POST /api/employee/delete HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	51
+2023-11-27 20:50:48.704	200	POST /api/employee/delete HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	54
+2023-11-27 21:07:27.540	404	POST /api/employee/update HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	32
+2023-11-27 21:07:41.657	200	POST /api/employee/update HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	51
+2023-11-27 21:16:36.263	200	POST /api/employee/update HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	51
+2023-11-27 21:18:25.496	200	POST /api/employee/update HTTP/1.1	PostmanRuntime/7.35.0	-	127.0.0.1	51
